@@ -4,12 +4,12 @@ using namespace std;
 
 int main() {
 
-    int rows;
+    int n, i, j;
 
     cout << "Enter number of rows: ";
-    cin >> rows;
+    cin >> n;
 
-    for(int i = 1; i <= rows; ++i) {
+    for(int i = 1; i <= n; ++i) {
         for(int j = 1; j <= i; ++j) {
             cout << "* ";
         }
